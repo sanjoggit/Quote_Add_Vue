@@ -19,7 +19,7 @@ export default {
     methods: {
         createQuote: function(e){
            this.$emit('newQuote', this.quote)
-        //    this.quote = ''
+           this.quote = ''
         }
     }
 }
